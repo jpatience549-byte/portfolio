@@ -7,7 +7,7 @@
 
 .skills .section-tag {
   display: table;
-  margin: 0 auto 20px;
+  margin: 0 0 20px 0;
 
   background: #ede9fe;
   color: var(--primary);
@@ -24,7 +24,7 @@
 .skills h2 {
   font-size: 52px;
   color: var(--text);
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
 }
 
@@ -32,9 +32,9 @@
 
 .section-description {
   max-width: 700px;
-  margin: 0 auto 60px;
+  margin: 0 0 60px 0;
 
-  text-align: center;
+  text-align: left;
 
   color: var(--text-light);
 

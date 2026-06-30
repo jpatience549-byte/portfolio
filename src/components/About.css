@@ -5,12 +5,14 @@
 
 .about-container {
   display: flex;
-  align-items: center;
-  gap: 90px;
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .about-image {
-  flex: 1;
+  flex: 0 0 460px;
+  max-width: 460px;
+  margin-top: 40px;
 }
 
 .about-card {
@@ -18,11 +20,19 @@
   border-radius: 30px;
   overflow: hidden;
   box-shadow: var(--shadow);
+  width: 100%;
 }
 
-.about-card img {
+.about-card img,
+.about-img {
   width: 100%;
   display: block;
+  height: auto;
+}
+
+.about-img {
+  max-width: 460px;
+  margin: 0 auto;
 }
 
 .about-content {
@@ -112,8 +122,41 @@
     gap: 60px;
   }
 
+  .about-image {
+    flex: 1;
+    max-width: 100%;
+    margin-top: 0;
+  }
+
+  .about-card {
+    width: 100%;
+  }
+
+  .about-img {
+    max-width: 100%;
+  }
+
   .about-content h2 {
     font-size: 44px;
   }
 
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 80px 0;
+  }
+
+  .about-container {
+    gap: 40px;
+  }
+
+  .about-content h2 {
+    font-size: 36px;
+  }
+
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.85;
+  }
 }

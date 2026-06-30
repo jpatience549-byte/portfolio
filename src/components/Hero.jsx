@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="hero-left">
           <div className="availability">
             <span className="status-dot"></span>
-            Available for Opportunities
+            Open to Work
           </div>
 
           <h1>

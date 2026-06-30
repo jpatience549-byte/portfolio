@@ -39,21 +39,13 @@ const Contact = () => {
           CONTACT
         </span>
 
-        <h2>Let's Build Something Together</h2>
-
-        <p className="section-description">
-          Whether you have a project, collaboration opportunity, or simply want
-          to connect, I'd love to hear from you. Feel free to reach out using
-          the form below.
-        </p>
-
         <div className="contact-container">
 
           <div className="contact-info">
 
             <div className="info-card">
               <h3>Email</h3>
-              <p>jpatience549@gmail.com</p>
+              <p>workwithpatience247@gmail.com</p>
             </div>
 
             <div className="info-card">
