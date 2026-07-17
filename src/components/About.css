@@ -10,8 +10,9 @@
 }
 
 .about-image {
-  flex: 0 0 460px;
+  flex: 1 1 460px;
   max-width: 460px;
+  width: 100%;
   margin-top: 40px;
 }
 
@@ -21,6 +22,7 @@
   overflow: hidden;
   box-shadow: var(--shadow);
   width: 100%;
+  max-width: 100%;
 }
 
 .about-card img,

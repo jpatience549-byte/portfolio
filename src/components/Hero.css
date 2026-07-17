@@ -141,8 +141,10 @@
 }
 
 .hero-card {
-  width: 480px;
-  height: 600px;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  aspect-ratio: 4 / 5;
 
   background: white;
 
@@ -227,8 +229,10 @@
   }
 
   .hero-card {
-    width: 360px;
-    height: 450px;
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    aspect-ratio: 4 / 5;
   }
 
 }
@@ -265,8 +269,10 @@
   }
 
   .hero-card {
-    width: 300px;
-    height: 380px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 5;
   }
 
 }
