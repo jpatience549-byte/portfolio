@@ -59,7 +59,7 @@ const projects = [
     description:
       "A responsive website developed for a client with a focus on business growth and user experience.",
     tech: "React • CSS • JavaScript",
-    github: "https://github.com/patience9090/client-website",
+    github: "https://github.com/patience9090/ClientWebsite.git",
   },
 ];
 
@@ -103,16 +103,15 @@ function Projects() {
                 </span>
 
                 <div className="project-buttons">
-
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View GitHub
-                  </a>
-
-                </div>
+  <a
+    href={project.github}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="github-btn"
+  >
+    Check it out on GitHub →
+  </a>
+</div>
 
               </div>
 
