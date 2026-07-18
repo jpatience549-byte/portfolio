@@ -3,7 +3,7 @@ import "./projects.css";
 import weatherImg from "../assets/weather-app.png";
 import srmsImg from "../assets/srms.png";
 import portfolioImg from "../assets/portfolio.png";
-import lynktikImg from "../assets/lynktik.png";
+//import lynktikImg from "../assets/lynktik.png";
 import serviceHubImg from "../assets/serviceHub.png";
 import clientWebsiteImg from "../assets/clientWebsite.png";
 
@@ -27,12 +27,12 @@ const projects = [
   },
 
   {
-    title: "Lynktik",
-    image: lynktikImg,
-    description:
-      "A creator platform for growing audiences, managing links and improving visibility.",
-    tech: "Next.js • Clerk • Tailwind CSS",
-    github: "https://github.com/patience9090/lynktik",
+   //title: "Lynktik",
+    //image: lynktikImg,
+    //description:
+     // "A creator platform for growing audiences, managing links and improving visibility.",
+    //tech: "Next.js • Clerk • Tailwind CSS",
+    //github: "https://github.com/patience9090/lynktik",
   },
 
   {
