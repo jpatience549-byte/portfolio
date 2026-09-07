@@ -8,6 +8,8 @@ const techStack = [
       "CSS3",
       "JavaScript",
       "React",
+      "Next.js",
+      "Tailwind CSS",
       "Responsive Design",
     ],
   },
@@ -16,8 +18,22 @@ const techStack = [
     skills: [
       "Python",
       "FastAPI",
+      "Node.js",
+      "Express.js",
       "REST APIs",
       "MongoDB",
+      "PostgreSQL",
+    ],
+  },
+  {
+    title: "Engineering",
+    skills: [
+      "C# / .NET 8",
+      "WPF",
+      "Authentication",
+      "Testing",
+      "CRUD Operations",
+      "Database Integration",
     ],
   },
   {
@@ -28,6 +44,8 @@ const techStack = [
       "VS Code",
       "Postman",
       "Vercel",
+      "Render",
+      "Gradle",
     ],
   },
 ];

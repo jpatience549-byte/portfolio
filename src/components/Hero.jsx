@@ -12,22 +12,21 @@ const Hero = () => {
         <div className="hero-left">
           <div className="availability">
             <span className="status-dot"></span>
-            Open to Work
+            Available for opportunities
           </div>
 
           <h1>
-            Building Digital
-            <br />
-            Experiences That
-            <br />
-            <span>Matter.</span>
+          Software Engineer
+          <br />
+          & Full-Stack Developer
+          <br />
+          <span>Building for impact.</span>
           </h1>
 
           <p className="hero-description">
-            Hi, I'm <strong>Patience Joseph</strong>, a passionate
-            <strong> Full-Stack Developer</strong> dedicated to building modern,
-            responsive, and scalable web applications using today's best
-            frontend and backend technologies.
+          Hi, I'm <strong>Patience Joseph</strong>, a software engineer and
+          computer science undergraduate building maintainable web applications,
+          REST APIs, and cross-platform products that solve practical problems.
           </p>
 
           <div className="hero-buttons">
@@ -42,18 +41,18 @@ const Hero = () => {
 
           <div className="hero-stats">
             <div className="stat-card">
-              <h3>10+</h3>
-              <span>Projects</span>
+              <h3>7+</h3>
+              <span>Selected Projects</span>
             </div>
 
             <div className="stat-card">
-              <h3>8+</h3>
+              <h3>15+</h3>
               <span>Technologies</span>
             </div>
 
             <div className="stat-card">
-              <h3>100%</h3>
-              <span>Dedication</span>
+              <h3>UTC+1</h3>
+              <span>West Africa Time</span>
             </div>
           </div>
         </div>

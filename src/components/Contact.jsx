@@ -45,17 +45,32 @@ const Contact = () => {
 
             <div className="info-card">
               <h3>Email</h3>
-              <p>workwithpatience247@gmail.com</p>
+              <p>
+                <a href="mailto:jpatience549@gmail.com">jpatience549@gmail.com</a>
+              </p>
             </div>
 
             <div className="info-card">
               <h3>Location</h3>
-              <p>Nigeria</p>
+              <p>Nigeria · West Africa Time (UTC+1)</p>
             </div>
 
             <div className="info-card">
               <h3>Availability</h3>
-              <p>Open to internships, freelance and full-time opportunities.</p>
+              <p>Available for internships, junior engineering roles, and product opportunities.</p>
+            </div>
+
+            <div className="info-card">
+              <h3>Profiles</h3>
+              <p>
+                <a href="https://github.com/patience9090" target="_blank" rel="noopener noreferrer">
+                  GitHub
+                </a>
+                {" · "}
+                <a href="https://linkedin.com/in/patience-joseph-a24900324" target="_blank" rel="noopener noreferrer">
+                  LinkedIn
+                </a>
+              </p>
             </div>
 
           </div>

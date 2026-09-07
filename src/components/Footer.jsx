@@ -11,8 +11,8 @@ const Footer = () => {
           <p className="footer-name">Patience Joseph</p>
 
           <p className="footer-description">
-            Full-stack developer building modern, responsive, and scalable web
-            experiences with a polished user experience.
+            Software engineer building maintainable full-stack applications,
+            REST APIs, and cross-platform products from Nigeria.
           </p>
         </div>
 

@@ -24,23 +24,22 @@ const About = () => {
           <div className="line"></div>
 
           <p>
-            I'm a <strong>Full-Stack Developer</strong> focused on building
-            responsive, scalable, and user-friendly web applications that solve
-            real business problems.
+            I'm a <strong>Software Engineer and Full-Stack Developer</strong>
+            focused on building responsive, scalable, and user-friendly
+            applications that solve real business problems.
           </p>
 
           <p>
-            My work combines modern frontend technologies with powerful backend
-            solutions to create applications that are fast, reliable, and easy
-            to use. I enjoy turning ideas into digital products with clean code,
-            thoughtful design, and a strong focus on user experience.
+            My experience spans React, Next.js, Node.js, FastAPI, MongoDB,
+            PostgreSQL, and C#/.NET. I connect frontend interfaces, backend
+            services, databases, and authentication into reliable end-to-end
+            products.
           </p>
 
           <p>
-            Beyond software development, I actively contribute to tech
-            communities, create educational content, and believe that technology
-            should be accessible to everyone through collaboration, continuous
-            learning, and knowledge sharing.
+            I am currently a Software Developer Intern and a Computer Science
+            undergraduate at Modibbo Adama University. I enjoy collaborative
+            Git-based workflows, code reviews, testing, and continuous learning.
           </p>
 
           <h3>WHAT I BRING</h3>
@@ -60,7 +59,7 @@ const About = () => {
             </div>
 
             <div className="about-box">
-              ✅ Continuous Learning & Team Collaboration
+              ✅ Testing, Git & Agile Collaboration
             </div>
 
           </div>
