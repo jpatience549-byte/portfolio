@@ -3,9 +3,10 @@ import "./projects.css";
 import weatherImg from "../assets/weather-app.png";
 import srmsImg from "../assets/srms.png";
 import portfolioImg from "../assets/portfolio.png";
-//import lynktikImg from "../assets/lynktik.png";
 import serviceHubImg from "../assets/serviceHub.png";
-import clientWebsiteImg from "../assets/clientWebsite.png";
+import divneyImg from "../assets/divney.png";
+import lynktikImg from "../assets/lynktik.png";
+import wirelayImg from "../assets/wirelay.png";
 
 const projects = [
   {
@@ -27,12 +28,12 @@ const projects = [
   },
 
   {
-   //title: "Lynktik",
-    //image: lynktikImg,
-    //description:
-     // "A creator platform for growing audiences, managing links and improving visibility.",
-    //tech: "Next.js • Clerk • Tailwind CSS",
-    //github: "https://github.com/patience9090/lynktik",
+    title: "Lynktik",
+    image: lynktikImg,
+    description:
+     "A LinkedIn-focused networking and visibility platform with authentication, profiles and creator community features.",
+    tech: "Next.js • React • Tailwind CSS • Clerk • FastAPI • MongoDB",
+    github: "https://github.com/patience9090/lynktik",
   },
 
   {
@@ -42,6 +43,15 @@ const projects = [
       "A modern portfolio website showcasing my skills, projects and services.",
     tech: "React • Vite • CSS",
     github: "https://github.com/patience9090/portfolio",
+  },
+
+  {
+    title: "WiRelay / WIshare",
+    image: wirelayImg,
+    description:
+      "A Windows and Android application for sharing Wi-Fi between a laptop and phone without relying on a traditional hotspot.",
+    tech: "C# • .NET 8 • WPF • Android • Gradle",
+    github: "https://github.com/patience9090/WiRelay",
   },
 
   {
@@ -55,7 +65,7 @@ const projects = [
 
   {
     title: "Client Website",
-    image: clientWebsiteImg,
+    image: divneyImg,
     description:
       "A responsive website developed for a client with a focus on business growth and user experience.",
     tech: "React • CSS • JavaScript",
