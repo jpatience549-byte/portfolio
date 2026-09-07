@@ -46,7 +46,7 @@ const projects = [
   },
 
   {
-    title: "WiRelay / WIshare",
+    title: "WiRelay",
     image: wirelayImg,
     description:
       "A Windows and Android application for sharing Wi-Fi between a laptop and phone without relying on a traditional hotspot.",
