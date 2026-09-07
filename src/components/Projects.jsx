@@ -93,14 +93,22 @@ function Projects() {
 
         <div className="projects-grid">
 
-          {projects.map((project, index) => (
-            <div className="project-card" key={index}>
+          {projects.map((project) => (
+            <div className="project-card" key={project.title}>
 
-              <img
-                src={project.image}
-                alt={project.title}
-                className="project-image"
-              />
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-image-link"
+                aria-label={`View ${project.title} on GitHub`}
+              >
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="project-image"
+                />
+              </a>
 
               <div className="project-content">
 
@@ -113,15 +121,15 @@ function Projects() {
                 </span>
 
                 <div className="project-buttons">
-  <a
-    href={project.github}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="github-btn"
-  >
-    Check it out on GitHub →
-  </a>
-</div>
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="github-btn"
+                  >
+                    Check it out on GitHub →
+                  </a>
+                </div>
 
               </div>
 
